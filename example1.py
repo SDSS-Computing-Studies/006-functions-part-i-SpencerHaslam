@@ -27,10 +27,13 @@ def double(number):
     answer = number * 2
     return answer
 
-
+def dubword(word):
+    answer = 2 * word
+    return answer
 # note: The function must be "called", which means using the name
 # to execute the code.  The function can be used "inline" or assigned
 # to a variable.
+print(dubword("hi"))
 
 print("==This is an inline use of a function")
 print("The number 4, when doubled is " + str(double(4)) )
