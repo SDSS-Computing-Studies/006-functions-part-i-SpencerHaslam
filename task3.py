@@ -13,6 +13,6 @@ def perimeter(lisst):
     answer = num
     return answer
 
-leest = [1,1,1]
+leest = [5,2,6]
 last = perimeter(leest)
 print(last) 
