@@ -18,6 +18,8 @@ def hypotenuse(a,b,c):
         num2 = nums[1]
         answer = math.sqrt((num1**2) - (num2**2))
     return answer
+
+
 a = 3
 b = 4
 c = True
