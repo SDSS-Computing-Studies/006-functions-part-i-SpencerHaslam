@@ -6,3 +6,13 @@ The return value is the sum of all the numbers in the list
 added together
 (2 points)
 """
+def perimeter(lisst):
+    num = 0
+    for x in lisst:
+        num = num + x
+    answer = num
+    return answer
+
+leest = [1,1,1]
+last = perimeter(leest)
+print(last) 
