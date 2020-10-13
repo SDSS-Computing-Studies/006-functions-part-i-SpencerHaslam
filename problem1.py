@@ -13,7 +13,7 @@ def hypotenuse(a,b,c):
         answer = math.sqrt((a**2) + (b**2))
     else:
         nums = [a,b]
-        nums = nums.sort()
+        nums.sort()
         num1 = nums[0]
         num2 = nums[1]
         answer = math.sqrt((num1**2) - (num2**2))
