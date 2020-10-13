@@ -14,5 +14,5 @@ def distance(a, b):
     x2 = b[0]
     y1 = a[1]
     y2 = b[1]
-    answer = (((x2 * x1)*2) + ((y2 * y1)*2))
+    answer = math.sqrt(((x2 - x1)**2) + ((y2 - y1)**2))
     return answer
