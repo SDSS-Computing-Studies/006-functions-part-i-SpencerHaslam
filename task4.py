@@ -10,10 +10,10 @@ def isInteger(noombar):
     num = float(noombar)
     nam = int (noombar)
     if num == nam:
-        answer = "True"
+        answer = True
     
     else:
-        answer = "False"
+        answer = False
     return answer
 number = 37
 number = isInteger(number)
